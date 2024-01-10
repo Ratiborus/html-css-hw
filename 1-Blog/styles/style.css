@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #374151;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+nav a {
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+#heroDate {
+    font-size: 16px;
+    line-height: 16.41px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+#name, footer > p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#post {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.mainContent {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.heroText {
+    font-size: 20px;
+    line-height: 32px;
+}
