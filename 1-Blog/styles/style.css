@@ -1,39 +1,85 @@
-* {
+body {
+    margin: 0;
+    background-color: #374151;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
 }
 
-body {
-    background-color: #374151;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+nav {
+    margin: 80px 77px 79px 226px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+p {
+   font-size: 16px;
+   line-height: 30px;
+   margin-top: 0;
+   margin-bottom: 40px;
 }
 
 nav a {
     font-size: 18px;
     line-height: 21px;
     text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer {
+    margin-bottom: 77px;
+}
+
+#search::placeholder {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#search {
+    height: 40px;
+    padding-left: 49px;
+    border: none;
+    border-radius: 100px;
+    background: #1F293799;
+    box-sizing: border-box;
+
 }
 
 #heroDate {
     font-size: 16px;
     line-height: 16.41px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 
-h1 {
-    font-size: 24px;
-    line-height: 38px;
+#cutaway {
+    margin-bottom: 28px;
 }
 
 #name, footer > p {
     font-size: 16px;
     line-height: 28px;
+    margin: 0;
 }
 
 #post {
     font-size: 14px;
     line-height: 28px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.6);    ;
 }
 
 .mainContent {
@@ -41,7 +87,16 @@ h1 {
     line-height: 30px;
 }
 
+.mainContent img {
+    margin-bottom: 69px;
+}
+
+.mainContent p:last-child {
+    margin-bottom: 103px;
+}
+
 .heroText {
     font-size: 20px;
     line-height: 32px;
+    margin-top: 0;
 }
