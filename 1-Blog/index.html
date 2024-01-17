@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Blog</title>
 </head>
 
@@ -12,27 +13,27 @@
     <header>
         <nav>
             <ul>
-                <li>Мой блог</li>
-                <li>HTML и CSS</li>
-                <li>Frontend</li>
-                <li>Frontend</li>
+                <li><a href="#">Мой блог</a></li>
+                <li><a href="#">HTML и CSS</a></li>
+                <li><a href="#">Frontend</a></li>
+                <li><a href="#">Frontend</a></li>
             </ul>
             <input type="text" id="search" name="search" placeholder="Поиск">
         </nav>
     </header>
     <main>
         <section>
-            <p>FRONTEND &#xB7; <time datetime="2024-12-05">12 мая 2024</time></p>
+            <p id="heroDate">FRONTEND &#xB7; <time datetime="2024-12-05">12 мая 2024</time></p>
             <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
         </section>
         <section id="cutaway">
             <img src="./images/Ellipse 1.png" alt="Портретное фото девушки">
-            <p>Наталья Васильева</p>
-            <p>Разработчик</p>
+            <p id="name">Наталья Васильева</p>
+            <p id="post">Разработчик</p>
         </section>
-        <section>
+        <section class="mainContent">
             <img src="./images/Rectangle 181.png" alt="Монитор и компьютер">
-            <p>
+            <p class="heroText">
                 Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета
                 и
                 различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение.
