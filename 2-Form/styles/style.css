@@ -6,6 +6,9 @@
 
 body {
     background-color: #F39494;
+    display: flex;
+    height: 100vh;
+    align-items: center;
 }
 
 div {
@@ -20,10 +23,6 @@ main {
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 72px 95px 91px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 form {
@@ -186,5 +185,12 @@ input:user-invalid {
     #lastName {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
+    }
+}
+
+@media screen and (max-height: 410px) {
+    main {
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
 }
