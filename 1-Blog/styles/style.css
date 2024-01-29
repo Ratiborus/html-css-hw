@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #374151;
@@ -7,13 +13,20 @@ body {
 }
 
 nav {
-    margin: 80px 77px 79px 226px;
+    max-width: 1080px;
+    margin: 72px auto;
+    display: flex;
+    /* gap: 300px; */
+    align-items: center;
 }
 
 nav ul {
+    display: flex;
+    gap:39px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 346px;
 }
 
 h1 {
@@ -26,8 +39,6 @@ h1 {
 p {
    font-size: 16px;
    line-height: 30px;
-   margin-top: 0;
-   margin-bottom: 40px;
 }
 
 nav a {
@@ -39,12 +50,17 @@ nav a {
 
 footer {
     margin-bottom: 77px;
+    text-align: center;
 }
 
-#search::placeholder {
+#search::placeholder, #search:read-write {
     font-size: 16px;
     line-height: 18.75px;
     color: rgba(255, 255, 255, 0.6);
+}
+
+#search:focus::placeholder {
+    color: transparent;
 }
 
 #search {
@@ -53,8 +69,7 @@ footer {
     border: none;
     border-radius: 100px;
     background: #1F293799;
-    box-sizing: border-box;
-
+    max-width: 224px;
 }
 
 #heroDate {
@@ -67,6 +82,18 @@ footer {
 
 #cutaway {
     margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+#cutaway>div {
+    display: flex;
+    gap:16px;
+}
+
+#cutaway img {
+    width: 50px;
+    height: 50px;
 }
 
 #name, footer > p {
@@ -82,17 +109,56 @@ footer {
     color: rgba(255, 255, 255, 0.6);    ;
 }
 
+.logoImage img {
+    position: absolute;
+    height: 23px;
+    width: 11px;
+    top: 6px;
+    left: 12px;
+}
+
+.logoImage {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(75, 85, 99, 1);
+    border-radius: 3px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    margin-right: 11px;
+}
+
+.searchInput {
+    position: relative;
+}
+
+.searchInput img {
+    position: absolute;
+    left: 18px;
+    top: 14px;
+}
+
+.starter{
+    text-align: center;
+}
+
 .mainContent {
     font-size: 16px;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:39px;
+    align-items: center;
+    margin-bottom: 103px;
 }
 
 .mainContent img {
-    margin-bottom: 69px;
+    height: 594px;
+    width: 894px;
+    margin-bottom: 30px;
 }
 
-.mainContent p:last-child {
-    margin-bottom: 103px;
+.mainContent p {
+    max-width: 708px;
 }
 
 .heroText {
